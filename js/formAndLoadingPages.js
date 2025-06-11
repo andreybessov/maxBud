@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
-      const token = "8160535999:AAGAU7xS0zDqbvZPwsU16SZOx6yvCHQVOK4";
+      const token = "8160535999:AAHIn1oMKYV6jLHTFfplnohtOpN6znMzcjM";
       const chatId = "-1002306691101";
       const url = 'https://api.telegram.org/bot${token}/sendMessage';
 
