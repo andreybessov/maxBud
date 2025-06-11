@@ -1,0 +1,80 @@
+.sidebar {
+    display: none;
+
+    @media screen and (min-width:$bp-desktop) {
+        display: block;
+        background-color: #1F1F1F;
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+        gap: 20%;
+        padding: 15px 0;
+    }
+
+    &__list {
+        display: flex;
+        padding-left: 0;
+        width: 100%;
+        justify-content: space-between;
+        color: white;
+        position: relative;
+        margin: 0;
+        font-size: 15px;
+
+        &::before,
+        &::after {
+            display: none;
+
+            @media screen and (min-width: $bp-desktop) {
+                display: block;
+                content: '';
+                position: absolute;
+                width: 1px;
+                height: 45px;
+                border: 1px solid #FFFFFF;
+            }
+        }
+
+        &::before {
+            left: 250px;
+        }
+        &::after {
+            right: 220px;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+    }
+
+    &__button {
+        display: none;
+
+        @media screen and (min-width:$bp-desktop) {
+            display: block;
+            padding: 15px 54px;
+            white-space: nowrap;
+             border: none;
+            background-color: white;
+            color: black;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color, color,  0.3s ease;
+
+            &:hover {
+                color: #FFFFFF;
+                background-color: #1887bf;
+            }
+        }
+    }
+
+    &__item {
+        color: white;
+        font-size: 14px;
+    }
+
+}

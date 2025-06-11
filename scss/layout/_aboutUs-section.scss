@@ -1,0 +1,80 @@
+.aboutUs-section {
+    background-color: #1F1F1F;
+
+    &__container {
+        width: 100%;
+        text-align: justify;
+
+        @media screen and (min-width:$bp-desktop) {
+            display: flex;
+            gap: 68px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 0;
+        };
+    }
+
+    &__content {
+        padding-top: 48px;
+
+        @media screen and (min-width:$bp-tablet) {
+            padding-top: 86px;
+        }
+    }
+
+
+    &__title {
+        font-size: 35px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        
+
+        @media screen and (min-width:$bp-desktop) {
+            margin-bottom: 48px;
+            text-align: start;
+        }
+    }
+
+    &__span {
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 31px;
+    }
+
+    &__text {
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    &__button{
+        text-align: center;
+        padding-bottom: 14px;
+
+        button {
+        padding: 20px 85px;
+        background-color: #1887bf;
+        border: 1px solid #1887bf;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all .3s ease;
+        
+        &:hover {
+            background-color: #fff;
+            color: black;
+        }
+    }
+    @media screen and (min-width:$bp-desktop) {
+            text-align: start;
+            padding-bottom: 60px;
+        }
+}
+}

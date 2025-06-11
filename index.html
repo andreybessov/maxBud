@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="src/css/main.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <base href="/beton/" /> -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="Продаємо товарний бетон, залізобетонні вироби та тротуарну плитку в Києві. Доставка та якісні матеріали від ПСГ 'Ковальська'."
+    />
+    <title>КБК"МАКСБУД"</title>
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="container">
+        <div class="sidebar__container">
+          <ul class="sidebar__list">
+            <li>
+              <img
+                src="src/assets/location-icon.png"
+                alt="location-icon"
+              />
+              <a
+                class="sidebar__item"
+                href="https://maps.app.goo.gl/DmKbnNfKfJktHQpw7"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Україна, м. Київ,<br />
+                вул. Промислова 6</a
+              >
+            </li>
+            <li>
+              <img
+                src="src/assets/time-icon.png"
+                alt="time"
+              />Режим роботи:<br />з 8:00 до 20:00
+            </li>
+            <li>
+              <img
+                src="src/assets/phone-icon.png"
+                alt="phoneIcon"
+              />+38 (066) 505 28 81
+            </li>
+          </ul>
+          <a
+            href="tel:+380665052881"
+            class="sidebar__button"
+            >Зателефонувати</a
+          >
+        </div>
+      </div>
+    </aside>
+    <header class="header">
+      <div class="container">
+        <nav class="header__navigation">
+          <a href="index.html">
+            <img
+              width="156"
+              height="34"
+              style="display: flex"
+              src="src/assets/logo.png"
+              alt="Логотип Макс буд"
+            />
+          </a>
+          <ul class="header__menu">
+            <li><a href="index.html#aboutUs">Про компанію</a></li>
+            <li><a href="index.html#catalogy">Ціни</a></li>
+            <li><a href="index.html#contact">Контакти</a></li>
+          </ul>
+          <button
+            class="header__burger-button menu-btn-open"
+            type="button"
+          >
+            <img
+              src="src/assets/burger-icon.png"
+              alt="burger-icon"
+            />
+          </button>
+          <div class="mobile-menu">
+            <div class="container">
+              <button
+                class="mobile-menu__btn-close menu-btn-close"
+                type="button"
+              ></button>
+              <ul class="mobile-menu__list">
+                <li>
+                  <a
+                    class="mobile-link1"
+                    href="index.html#aboutUs"
+                    >Про компанію</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="mobile-link2"
+                    href="index.html#catalogy"
+                    >Ціни</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="mobile-link3"
+                    href="index.html#contact"
+                    >Контакти</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section
+        id="hero"
+        class="hero-section"
+      >
+        <div class="container">
+          <div class="hero-section__container">
+            <h1 class="hero-section__title">
+              Товарний бетон<br />
+              та ЗБВ у Києві
+            </h1>
+            <p class="hero-section__text">
+              Виготовляємо якісний бетон, сходові системи, колодязні кільця,
+              перетинки та інші<br />
+              залізобетонні елементи. Працюємо з гарантією міцності, точності та
+              дотриманням термінів
+            </p>
+            <a
+              href="#catalogy"
+              class="hero-section__button"
+              >Каталог</a
+            >
+          </div>
+        </div>
+      </section>
+      <section
+        class="catalogy-section"
+        id="catalogy"
+      >
+        <div class="container">
+          <h2 class="catalogy-section__title">Каталог продукції</h2>
+          <div class="catalogy-section__container">
+            <ul class="catalogy-section__list">
+              <li>
+                <a href="stairs.html">
+                  <article
+                    id="catalogyCard1"
+                    class="catalogy-section__card"
+                  >
+                    <img
+                      src="src/assets/product-item1.png"
+                      alt="beton"
+                    />
+                    <h3>СХОДОВІ СИСТЕМИ</h3>
+                  </article>
+                </a>
+              </li>
+              <li>
+                <a href="rings.html">
+                  <article
+                    id="catalogyCard2"
+                    class="catalogy-section__card"
+                  >
+                    <img
+                      src="src/assets/product-item2.png"
+                      alt="beton"
+                    />
+                    <h3>КІЛЬЦЯ ТА КРИШКИ</h3>
+                  </article>
+                </a>
+              </li>
+              <li>
+                <a href="membranes.html">
+                  <article
+                    id="catalogyCard3"
+                    class="catalogy-section__card"
+                  >
+                    <img
+                      src="src/assets/product-item3.png"
+                      alt="beton"
+                    />
+                    <h3>ПЕРЕТИНКИ</h3>
+                  </article>
+                </a>
+              </li>
+            </ul>
+            <div class="catalogy-section__button">
+              <button
+                type="button"
+                id="catalogLink"
+              >
+                Консультація
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="aboutUs"
+        class="aboutUs-section"
+      >
+        <div class="container">
+          <div class="aboutUs-section__container">
+            <img
+              src="src/assets/about-us.webp"
+              alt="work Time"
+            />
+            <div class="aboutUs-section__content">
+              <h2 class="aboutUs-section__title">Про нас</h2>
+              <span class="aboutUs-section__span"
+                >КБК "МАКСБУД" — виробник, якому довіряють.</span
+              >
+              <p class="aboutUs-section__text">
+                Підприємство з 2015 р є виробником бетонних і залізобетонних
+                виробів, орієнтованим на забезпечення потреб будівельної галузі.
+                Основна мета компанії — виготовлення якісної, довговічної та
+                сертифікованої продукції для різних сфер застосування: житлове,
+                комерційне, промислове та інфраструктурне будівництво.
+              </p>
+              <p class="aboutUs-section__text">
+                Якщо вам потрібні перевірені ЗБВ за вигідною ціною — замовити їх
+                можна безпосередньо на нашому сайті. Ми працюємо без
+                посередників, тому гарантуємо високу якість продукції та чесну
+                вартість. Доставка здійснюється по регіону в найкоротші терміни.
+              </p>
+              <p class="aboutUs-section__text">
+                Якщо виникнуть питання або потрібна допомога з вибором — наші
+                менеджери завжди на зв’язку. Замовте зворотний дзвінок або
+                зателефонуйте нам самостійно — і ми допоможемо підібрати
+                найкраще рішення саме для вашого об’єкта.
+              </p>
+              <div class="aboutUs-section__button">
+                <button
+                  id="aboutUsBtn"
+                  type="button"
+                >
+                  Зв'язатись
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="portfolio-section"
+        id="portfolio"
+      >
+        <div class="container">
+          <h2 class="portfolio-section__title">Наші роботи</h2>
+          <div class="portfolio-section__text-container">
+            <p class="portfolio-section__text">
+              Ми виготовляємо залізобетонні вироби, які витримують навантаження
+              та час. На фото — приклади готової продукції: сходові марші,
+              колодязні кільця, перетинки та інші елементи, які ми постачаємо
+              щодня. Сучасне обладнання, перевірені матеріали та контроль якості
+              — гарантія надійності кожного виробу.
+            </p>
+          </div>
+          <div class="portfolio-section__gallery">
+            <ul class="portfolio-section__list">
+              <li>
+                <img
+                  src="src/assets/portfolio.png"
+                  alt="our work"
+                />
+              </li>
+              <li>
+                <img
+                  src="src/assets/portfolio2.png"
+                  alt="our work"
+                />
+              </li>
+              <li>
+                <img
+                  src="src/assets/portfolio3.png"
+                  alt="our work"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section
+        class="advantages-section"
+        id="advantages"
+      >
+        <div class="container">
+          <h2 class="advantages-section__title">Наші переваги</h2>
+          <div>
+            <ul class="advantages-section__list">
+              <li class="advantages-section__card">
+                <img
+                  src="src/assets/advantages-card.png"
+                  alt="advantages Icon"
+                />
+                <h3>Власне виробництво – вигідні ціни</h3>
+                <p>
+                  Ми є безпосереднім виробником ЗБВ, тому можемо запропонувати
+                  конкурентні ціни без націнок посередників.
+                </p>
+              </li>
+              <li class="advantages-section__card">
+                <img
+                  src="src/assets/advantages-card3.png"
+                  alt="advantages Icon"
+                />
+                <h3>Надійна якість продукції</h3>
+                <p>
+                  Вся наша продукція виготовляється з дотриманням сучасних
+                  стандартів якості, що гарантує її міцність і довговічність.
+                </p>
+              </li>
+              <li class="advantages-section__card">
+                <img
+                  src="src/assets/advantages-card2.png"
+                  alt="advantages Icon"
+                />
+                <h3>Турбота про клієнта на кожному етапі</h3>
+                <p>
+                  Ми забезпечуємо якісний сервіс: від першої консультації до
+                  післяпродажної підтримки. Завжди ввічливі, відповідальні й
+                  готові допомогти.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="footer"
+      id="contact"
+    >
+      <div class="container">
+        <div class="footer__container">
+          <ul class="footer__info">
+            <li><h3>Магазин</h3></li>
+            <li class="footer__info-item">
+              <img
+                src="src/assets/time-icon-footer.png"
+                alt="time"
+              /><span>Режим роботи з 8:00 до 20:00</span>
+            </li>
+            <li>
+              <a
+                class="footer__info-item footer__link"
+                href="tel:+380665052881"
+              >
+                <img
+                  src="src/assets/phone-icon-footer.png"
+                  alt="phone icon"
+                /><span>+38 (066) 505 28 81</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="footer__info">
+            <li><h3>Про нас</h3></li>
+            <li>
+              <a
+                class="footer__link"
+                href="index.html#aboutUs"
+                >Про нас</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer__link"
+                href="index.html#advantages"
+                >Наші переваги</a
+              >
+            </li>
+          </ul>
+          <ul class="footer__info">
+            <li><h3>Каталог товарів</h3></li>
+            <li>
+              <a
+                class="footer__link"
+                href="index.html#catalogy"
+                >Каталог</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer__link"
+                href="index.html#portfolio"
+                >Наші роботи</a
+              >
+            </li>
+          </ul>
+        </div>
+        <p class="footer__p">&copy;Права захищені</p>
+      </div>
+    </footer>
+    <div
+      class="modal"
+      id="callbackModal"
+    >
+      <div class="modal__overlay"></div>
+      <div class="modal__content">
+        <button
+          class="modal__close"
+          id="modalClose"
+        >
+          &times;
+        </button>
+        <h2>Зворотній зв’язок</h2>
+        <form
+          class="modal__form"
+          id="feedbackForm"
+        >
+          <label>
+            Ім’я:
+            <input
+              type="text"
+              name="name"
+              required
+            />
+          </label>
+          <label for="phone">
+            Телефон:
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              maxlength="13"
+              minlength="10"
+              required
+            />
+            <div
+              id="phoneError"
+              class="error-message"
+            ></div>
+          </label>
+          <label>
+            Повідомлення:
+            <textarea
+              name="message"
+              rows="4"
+            ></textarea>
+          </label>
+          <button
+            type="submit"
+            class="modal__submit"
+          >
+            Надіслати
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- Успішна модалка -->
+    <div
+      id="successModal"
+      class="modal"
+    >
+      <div class="modal__overlay"></div>
+      <div class="modal__content">
+        <button
+          id="successModalClose"
+          class="modal__success-close"
+          aria-label="Закрити модалку"
+        >
+          &times;
+        </button>
+        <p class="modal__text">✅ Форма успішно надіслана!</p>
+      </div>
+    </div>
+
+    <script src="js/formAndLoadingPages.js"></script>
+    <script src="js/headerHideOnScrollю.js"></script>
+    <script src="js/mobileMenu.js"></script>
+    <!-- <script src="js/pageLoading.js"></script> -->
+  </body>
+</html>

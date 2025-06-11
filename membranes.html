@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <link
+    rel="stylesheet"
+    href="src/css/main.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <title>КБК"МАКСБУД"</title>
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="container">
+      <div class="sidebar__container">
+        <ul class="sidebar__list">
+          <li>
+            <img
+              src="src/assets/location-icon.png"
+              alt="location-icon"
+            />
+            <a
+              class="sidebar__item"
+              href="https://maps.app.goo.gl/DmKbnNfKfJktHQpw7"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Україна, м. Київ,<br />
+              вул. Промислова 6</a
+            >
+          </li>
+          <li>
+            <img
+              src="src/assets/time-icon.png"
+              alt="time"
+            />Режим роботи:<br />з 8:00 до 20:00
+          </li>
+          <li>
+            <img
+              src="src/assets/phone-icon.png"
+              alt="phoneIcon"
+            />+38 (066) 505 28 81
+          </li>
+        </ul>
+        <a
+          href="tel:+380666666666"
+          class="sidebar__button"
+          >Зателефонувати</a
+        >
+      </div>
+    </div>
+  </aside>
+  <header class="header">
+    <div class="container">
+      <nav class="header__navigation">
+        <!-- <a href="index.html">
+                    <img src="./src/assets/logo.svg" alt="Логотип Beauty Zone" />
+                  </a> -->
+        <ul class="header__menu">
+          <li><a href="index.html#aboutUs">Про компанію</a></li>
+          <li><a href="#">Ціни</a></li>
+          <li><a href="#">Контакти</a></li>
+        </ul>
+        <button
+          class="header__burger-button menu-btn-open"
+          type="button"
+        >
+          <img
+            src="src/assets/burger-icon.png"
+            alt="burger-icon"
+          />
+        </button>
+        <div class="mobile-menu">
+          <div class="container">
+            <button
+              class="mobile-menu__btn-close menu-btn-close"
+              type="button"
+            ></button>
+            <ul class="mobile-menu__list">
+              <li>
+                <a
+                  id="mobile-link1"
+                  href="index.html#aboutUs"
+                  >Про компанію</a
+                >
+              </li>
+              <li>
+                <a
+                  id="mobile-link2"
+                  href="product.html#priceTable"
+                  >Ціни</a
+                >
+              </li>
+              <li>
+                <a
+                  id="mobile-link3"
+                  href="#"
+                  >Контакти</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="product-page">
+      <div class="product-page__hero">
+        <div class="container">
+          <h2 class="product-page__title">ПЕРЕТИНКИ</h2>
+          <div class="product-page__container">
+            <div class="product-page__title-container">
+              <p>ПЕРЕТИНКИ БАЛОЧНІ</p>
+              <p>ПЕРЕТИНКИ БРУСКОВІ<br />ТА ПЛИТНІ</p>
+            </div>
+            <img
+              class="product-page__img"
+              src="src/assets/rings-pages.png"
+              alt="Бетонні круги"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <table
+          class="product-page__table"
+          id="priceTable"
+        >
+          <thead>
+            <tr>
+              <th>Перетинки</th>
+              <th>Д (мм)</th>
+              <th>Ш (мм)</th>
+              <th>В (мм)</th>
+              <th>Вага (кг)</th>
+              <th>Ціна з ПДВ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1 ПБ 10-1</td>
+              <td>1030</td>
+              <td>120</td>
+              <td>65</td>
+              <td>25</td>
+              <td>124.20</td>
+            </tr>
+            <tr>
+              <td>1 ПБ 13-1</td>
+              <td>1290</td>
+              <td>120</td>
+              <td>65</td>
+              <td>25</td>
+              <td>129.60</td>
+            </tr>
+            <tr>
+              <td>1 ПБ 16-1</td>
+              <td>1550</td>
+              <td>120</td>
+              <td>65</td>
+              <td>30</td>
+              <td>178.20</td>
+            </tr>
+            <tr>
+              <td>2 ПБ 10-1</td>
+              <td>1030</td>
+              <td>120</td>
+              <td>140</td>
+              <td>43</td>
+              <td>209.10</td>
+            </tr>
+            <tr>
+              <td>2 ПБ 13-1</td>
+              <td>1290</td>
+              <td>120</td>
+              <td>140</td>
+              <td>54</td>
+              <td>214.20</td>
+            </tr>
+            <tr>
+              <td>2 ПБ 16-2</td>
+              <td>1550</td>
+              <td>120</td>
+              <td>140</td>
+              <td>65</td>
+              <td>293.25</td>
+            </tr>
+            <tr>
+              <td>2 ПБ 17-2</td>
+              <td>1680</td>
+              <td>120</td>
+              <td>140</td>
+              <td>71</td>
+              <td>339.15</td>
+            </tr>
+            <tr>
+              <td>2 ПБ 19-3</td>
+              <td>1940</td>
+              <td>120</td>
+              <td>140</td>
+              <td>81</td>
+              <td>397.80</td>
+            </tr>
+            <tr>
+              <td>2 ПБ 22-3</td>
+              <td>2200</td>
+              <td>120</td>
+              <td>140</td>
+              <td>92</td>
+              <td>464.10</td>
+            </tr>
+            <tr>
+              <td>2 ПБ 25-3</td>
+              <td>2460</td>
+              <td>120</td>
+              <td>140</td>
+              <td>103</td>
+              <td>474.30</td>
+            </tr>
+            <tr>
+              <td>2 ПБ 26-4</td>
+              <td>2590</td>
+              <td>120</td>
+              <td>140</td>
+              <td>109</td>
+              <td>476.85</td>
+            </tr>
+            <tr>
+              <td>2 ПБ 29-4</td>
+              <td>2850</td>
+              <td>120</td>
+              <td>140</td>
+              <td>120</td>
+              <td>548.25</td>
+            </tr>
+            <tr>
+              <td>2 ПБ 30-4</td>
+              <td>2980</td>
+              <td>120</td>
+              <td>140</td>
+              <td>125</td>
+              <td>573.75</td>
+            </tr>
+            <tr>
+              <td>3 ПБ 13-37</td>
+              <td>1290</td>
+              <td>120</td>
+              <td>220</td>
+              <td>85</td>
+              <td>397.80</td>
+            </tr>
+            <tr>
+              <td>3 ПБ 16-37</td>
+              <td>1550</td>
+              <td>120</td>
+              <td>220</td>
+              <td>102</td>
+              <td>510.00</td>
+            </tr>
+            <tr>
+              <td>3 ПБ 18-8</td>
+              <td>1810</td>
+              <td>120</td>
+              <td>220</td>
+              <td>119</td>
+              <td>474.30</td>
+            </tr>
+            <tr>
+              <td>3 ПБ 18-37</td>
+              <td>1810</td>
+              <td>120</td>
+              <td>220</td>
+              <td>119</td>
+              <td>561.60</td>
+            </tr>
+            <tr>
+              <td>3 ПБ 21-8</td>
+              <td>2070</td>
+              <td>120</td>
+              <td>220</td>
+              <td>137</td>
+              <td>540.00</td>
+            </tr>
+            <tr>
+              <td>3 ПБ 25-8</td>
+              <td>2460</td>
+              <td>120</td>
+              <td>220</td>
+              <td>162</td>
+              <td>601.80</td>
+            </tr>
+            <tr>
+              <td>3 ПБ 27-8</td>
+              <td>2720</td>
+              <td>120</td>
+              <td>220</td>
+              <td>180</td>
+              <td>720.90</td>
+            </tr>
+            <tr>
+              <td>3 ПБ 30-8</td>
+              <td>2980</td>
+              <td>120</td>
+              <td>220</td>
+              <td>197</td>
+              <td>785.70</td>
+            </tr>
+            <tr>
+              <td>3 ПБ 34-4</td>
+              <td>3370</td>
+              <td>120</td>
+              <td>220</td>
+              <td>222</td>
+              <td>912.60</td>
+            </tr>
+            <tr>
+              <td>3 ПБ 36-4</td>
+              <td>3630</td>
+              <td>120</td>
+              <td>220</td>
+              <td>240</td>
+              <td>939.60</td>
+            </tr>
+            <tr>
+              <td>3 ПБ 39-8</td>
+              <td>3890</td>
+              <td>120</td>
+              <td>220</td>
+              <td>257</td>
+              <td>1282.50</td>
+            </tr>
+            <tr>
+              <td>4 ПБ 30-4</td>
+              <td>2980</td>
+              <td>120</td>
+              <td>290</td>
+              <td>259</td>
+              <td>832.02</td>
+            </tr>
+            <tr>
+              <td>5 ПБ 18-27</td>
+              <td>1810</td>
+              <td>250</td>
+              <td>220</td>
+              <td>249</td>
+              <td>915.30</td>
+            </tr>
+            <tr>
+              <td>5 ПБ 21-27</td>
+              <td>2070</td>
+              <td>250</td>
+              <td>220</td>
+              <td>285</td>
+              <td>1123.20</td>
+            </tr>
+            <tr>
+              <td>5 ПБ 21-37</td>
+              <td>2070</td>
+              <td>250</td>
+              <td>220</td>
+              <td>285</td>
+              <td>1213.20</td>
+            </tr>
+            <tr>
+              <td>5 ПБ 25-27</td>
+              <td>2460</td>
+              <td>250</td>
+              <td>220</td>
+              <td>338</td>
+              <td>1341.90</td>
+            </tr>
+            <tr>
+              <td>5 ПБ 25-37</td>
+              <td>2460</td>
+              <td>250</td>
+              <td>220</td>
+              <td>338</td>
+              <td>1476.90</td>
+            </tr>
+            <tr>
+              <td>5 ПБ 27-27</td>
+              <td>2720</td>
+              <td>250</td>
+              <td>220</td>
+              <td>374</td>
+              <td>1620.00</td>
+            </tr>
+            <tr>
+              <td>5 ПБ 27-37</td>
+              <td>2720</td>
+              <td>250</td>
+              <td>220</td>
+              <td>374</td>
+              <td>2211.30</td>
+            </tr>
+            <tr>
+              <td>5 ПБ 30-27</td>
+              <td>2980</td>
+              <td>250</td>
+              <td>220</td>
+              <td>410</td>
+              <td>2238.30</td>
+            </tr>
+            <tr>
+              <td>5 ПБ 30-37</td>
+              <td>2980</td>
+              <td>250</td>
+              <td>220</td>
+              <td>410</td>
+              <td>2853.90</td>
+            </tr>
+            <tr>
+              <td>5 ПБ 31-27</td>
+              <td>3110</td>
+              <td>250</td>
+              <td>220</td>
+              <td>428</td>
+              <td>2243.70</td>
+            </tr>
+            <tr>
+              <td>5 ПБ 34-20</td>
+              <td>3370</td>
+              <td>250</td>
+              <td>220</td>
+              <td>463</td>
+              <td>2400.30</td>
+            </tr>
+            <tr>
+              <td>5 ПБ 36-20</td>
+              <td>3630</td>
+              <td>250</td>
+              <td>220</td>
+              <td>499</td>
+              <td>2953.80</td>
+            </tr>
+            <tr>
+              <td>8 ПБ 10-1</td>
+              <td>1030</td>
+              <td>120</td>
+              <td>90</td>
+              <td>28</td>
+              <td>175.95</td>
+            </tr>
+            <tr>
+              <td>8 ПБ 13-1</td>
+              <td>1290</td>
+              <td>120</td>
+              <td>90</td>
+              <td>35</td>
+              <td>214.20</td>
+            </tr>
+            <tr>
+              <td>8 ПБ 16-1</td>
+              <td>1550</td>
+              <td>120</td>
+              <td>90</td>
+              <td>40</td>
+              <td>306.00</td>
+            </tr>
+            <tr>
+              <td>8 ПБ 17-2</td>
+              <td>1680</td>
+              <td>120</td>
+              <td>90</td>
+              <td>45</td>
+              <td>318.75</td>
+            </tr>
+            <tr>
+              <td>8 ПБ 19-3</td>
+              <td>1940</td>
+              <td>120</td>
+              <td>90</td>
+              <td>52</td>
+              <td>364.65</td>
+            </tr>
+            <tr>
+              <td>8 ПБ 22-3</td>
+              <td>2200</td>
+              <td>120</td>
+              <td>90</td>
+              <td>60</td>
+              <td>440.30</td>
+            </tr>
+            <tr>
+              <td>9 ПБ 13-37</td>
+              <td>1290</td>
+              <td>120</td>
+              <td>190</td>
+              <td>74</td>
+              <td>415.80</td>
+            </tr>
+            <tr>
+              <td>9 ПБ 16-37</td>
+              <td>1550</td>
+              <td>120</td>
+              <td>190</td>
+              <td>88</td>
+              <td>540.00</td>
+            </tr>
+            <tr>
+              <td>9 ПБ 18-37</td>
+              <td>1810</td>
+              <td>120</td>
+              <td>190</td>
+              <td>103</td>
+              <td>637.20</td>
+            </tr>
+            <tr>
+              <td>9 ПБ 18-8</td>
+              <td>1810</td>
+              <td>120</td>
+              <td>190</td>
+              <td>103</td>
+              <td>515.70</td>
+            </tr>
+            <tr>
+              <td>9 ПБ 21-8</td>
+              <td>2070</td>
+              <td>120</td>
+              <td>190</td>
+              <td>118</td>
+              <td>561.60</td>
+            </tr>
+            <tr>
+              <td>9 ПБ 22-3</td>
+              <td>2200</td>
+              <td>120</td>
+              <td>190</td>
+              <td>126</td>
+              <td>591.30</td>
+            </tr>
+            <tr>
+              <td>9 ПБ 25-8</td>
+              <td>2460</td>
+              <td>120</td>
+              <td>190</td>
+              <td>140</td>
+              <td>696.60</td>
+            </tr>
+            <tr>
+              <td>9 ПБ 27-8</td>
+              <td>2720</td>
+              <td>120</td>
+              <td>190</td>
+              <td>155</td>
+              <td>772.20</td>
+            </tr>
+            <tr>
+              <td>10 ПБ 18-27</td>
+              <td>1810</td>
+              <td>250</td>
+              <td>190</td>
+              <td>215</td>
+              <td>882.90</td>
+            </tr>
+            <tr>
+              <td>10 ПБ 21-27</td>
+              <td>2070</td>
+              <td>250</td>
+              <td>190</td>
+              <td>246</td>
+              <td>1123.20</td>
+            </tr>
+            <tr>
+              <td>10 ПБ 21-37</td>
+              <td>2070</td>
+              <td>250</td>
+              <td>190</td>
+              <td>246</td>
+              <td>1682.10</td>
+            </tr>
+            <tr>
+              <td>10 ПБ 25-27</td>
+              <td>2460</td>
+              <td>250</td>
+              <td>190</td>
+              <td>292</td>
+              <td>1571.40</td>
+            </tr>
+            <tr>
+              <td>10 ПБ 25-37</td>
+              <td>2460</td>
+              <td>250</td>
+              <td>190</td>
+              <td>292</td>
+              <td>1971.00</td>
+            </tr>
+            <tr>
+              <td>10 ПБ 27-37</td>
+              <td>2720</td>
+              <td>250</td>
+              <td>190</td>
+              <td>323</td>
+              <td>2910.60</td>
+            </tr>
+            <tr>
+              <td>2 ПП 14-4</td>
+              <td>1420</td>
+              <td>380</td>
+              <td>140</td>
+              <td>189</td>
+              <td>996.30</td>
+            </tr>
+            <tr>
+              <td>2 ПП 18-5</td>
+              <td>1810</td>
+              <td>380</td>
+              <td>140</td>
+              <td>241</td>
+              <td>1282.50</td>
+            </tr>
+            <tr>
+              <td>2 ПП 21-6</td>
+              <td>2070</td>
+              <td>380</td>
+              <td>140</td>
+              <td>275</td>
+              <td>1471.50</td>
+            </tr>
+            <tr>
+              <td>2 ПП 25-8</td>
+              <td>2460</td>
+              <td>380</td>
+              <td>140</td>
+              <td>327</td>
+              <td>1722.60</td>
+            </tr>
+            <tr>
+              <td>3 ПП 14-71</td>
+              <td>1420</td>
+              <td>380</td>
+              <td>220</td>
+              <td>297</td>
+              <td>1517.40</td>
+            </tr>
+            <tr>
+              <td>3 ПП 16-71</td>
+              <td>1550</td>
+              <td>380</td>
+              <td>220</td>
+              <td>324</td>
+              <td>1663.20</td>
+            </tr>
+            <tr>
+              <td>3 ПП 18-71</td>
+              <td>1810</td>
+              <td>380</td>
+              <td>220</td>
+              <td>378</td>
+              <td>1917.00</td>
+            </tr>
+            <tr>
+              <td>3 ПП 21-71</td>
+              <td>2070</td>
+              <td>380</td>
+              <td>220</td>
+              <td>433</td>
+              <td>2168.10</td>
+            </tr>
+            <tr>
+              <td>3 ПП 25-71</td>
+              <td>2460</td>
+              <td>380</td>
+              <td>220</td>
+              <td>522</td>
+              <td>3897.90</td>
+            </tr>
+            <tr>
+              <td>3 ПП 27-71</td>
+              <td>2720</td>
+              <td>380</td>
+              <td>220</td>
+              <td>568</td>
+              <td>3050.00</td>
+            </tr>
+            <tr>
+              <td>3 ПП 30-10</td>
+              <td>2980</td>
+              <td>380</td>
+              <td>220</td>
+              <td>623</td>
+              <td>3183.30</td>
+            </tr>
+            <tr>
+              <td>3 ПП 30-71</td>
+              <td>2980</td>
+              <td>380</td>
+              <td>220</td>
+              <td>623</td>
+              <td>4694.40</td>
+            </tr>
+            <tr>
+              <td>8 ПП 14-71</td>
+              <td>1410</td>
+              <td>380</td>
+              <td>190</td>
+              <td>256</td>
+              <td>1179.90</td>
+            </tr>
+            <tr>
+              <td>8 ПП 16-71</td>
+              <td>1550</td>
+              <td>380</td>
+              <td>190</td>
+              <td>280</td>
+              <td>1485.00</td>
+            </tr>
+            <tr>
+              <td>8 ПП 18-5</td>
+              <td>1810</td>
+              <td>380</td>
+              <td>190</td>
+              <td>327</td>
+              <td>1279.80</td>
+            </tr>
+            <tr>
+              <td>8 ПП 18-71</td>
+              <td>1810</td>
+              <td>380</td>
+              <td>190</td>
+              <td>327</td>
+              <td>1722.60</td>
+            </tr>
+            <tr>
+              <td>8 ПП 21-6</td>
+              <td>2070</td>
+              <td>380</td>
+              <td>190</td>
+              <td>374</td>
+              <td>1917.00</td>
+            </tr>
+            <tr>
+              <td>8 ПП 21-71</td>
+              <td>2070</td>
+              <td>380</td>
+              <td>190</td>
+              <td>374</td>
+              <td>2475.90</td>
+            </tr>
+            <tr>
+              <td>8 ПП 23-7</td>
+              <td>2330</td>
+              <td>380</td>
+              <td>190</td>
+              <td>421</td>
+              <td>2141.10</td>
+            </tr>
+            <tr>
+              <td>8 ПП 27-71</td>
+              <td>2720</td>
+              <td>380</td>
+              <td>190</td>
+              <td>491</td>
+              <td>5286.60</td>
+            </tr>
+            <tr>
+              <td>8 ПП 30-10</td>
+              <td>2980</td>
+              <td>380</td>
+              <td>190</td>
+              <td>538</td>
+              <td>3048.30</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <script src="js/mobileMenu.js"></script>
+  <script src="js/headerHideOnScrollю.js"></script>
+</body>
