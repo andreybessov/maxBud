@@ -1,0 +1,1 @@
+The site is written in pure html/css + js and PHP, for the client, basic SEO was also implemented, and a feedback form on Telegram, via API + PHP on the hosting, to hide the token from the client side
